@@ -1,0 +1,21 @@
+body {
+    margin: 1.5%;
+    background-color: lightgray;
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error-container > p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: black;
+    margin: 0.5%;
+}
+
+.title {
+    font-weight: bold;
+}

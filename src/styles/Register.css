@@ -1,0 +1,54 @@
+body {
+    margin: 1.5%;
+    background-color: lightgray;
+}
+
+.flex-2c-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.flex-child {
+    flex: 1;
+    margin: 1rem;
+}
+
+.android {
+    width: 90%;
+    height: 90%;
+    object-fit: scale-down;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container>* {
+    padding: 1%;
+    margin: 1%;
+}
+
+.form-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.result-navigation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.navigable:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    scale: 110%;
+}
